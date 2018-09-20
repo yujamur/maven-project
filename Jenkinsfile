@@ -7,7 +7,7 @@ agent 'master'
 			}
 		}
 		parameters{
-		string{defaultValue}
+		string{defaultValue: '3', description: '',name:'MAX_ERRORS',trim: false}
     }
 		stage('Compilar') {
 		steps{
